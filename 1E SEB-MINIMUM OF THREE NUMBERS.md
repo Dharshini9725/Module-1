@@ -16,19 +16,23 @@ To write a Python program to find the minimum between three integer numbers usin
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No-212223060050
+# Name-Dharshini V S
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
+a=int(input())
+b=int(input())
+c=int(input())
+min=a
+if(b<a) and (b<c):
+    min=b
+elif(c<a) and (c<b):
+    min=c
+print(f'The minimum of {a}, {b}, {c} is {min}')
 ```
 
 ## OUTPUT
+<img width="1259" height="440" alt="Screenshot 2025-08-31 175434" src="https://github.com/user-attachments/assets/d82143c6-e27e-483b-8a49-9068cddd3dce" />
+
 
 ## RESULT
+Thus a Python program to find the minimum between three integer numbers using a conditional expression has been implemented and executed successfully.
